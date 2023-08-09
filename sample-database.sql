@@ -7,5 +7,8 @@ CREATE TABLE table_name (
     column1 datatype [optional_constraints],
     column2 datatype [optional_constraints],
     optional_table_constraints
-); 
+); - CREATE TABLE employees (
+    employee_id INT PRIMARY KEY,
+    first_name VARCHAR(50),
+ 
 
