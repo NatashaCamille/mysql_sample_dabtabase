@@ -12,4 +12,6 @@ CREATE TABLE table_name (
     first_name VARCHAR(50),
     last_name VARCHAR(50),
     job_title VARCHAR(100),
+    hire_date DATE
+);
 
