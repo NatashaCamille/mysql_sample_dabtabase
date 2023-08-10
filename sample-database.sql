@@ -17,3 +17,4 @@ CREATE TABLE table_name (
 ___________________________________________________________________________
 
 INSERT INTO table_name (column1, column2) VALUES (value1, value2);
+- INSERT INTO employees ( )
