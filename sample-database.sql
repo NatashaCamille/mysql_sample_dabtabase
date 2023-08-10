@@ -14,4 +14,4 @@ CREATE TABLE table_name (
     job_title VARCHAR(100),
     hire_date DATE
 );
-
+___________________________________________________________________________
