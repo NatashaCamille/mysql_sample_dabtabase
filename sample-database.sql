@@ -32,6 +32,10 @@ CREATE TABLE Course (
     course_id VARCHAR (25) PRIMARY KEY NOT NULL,
     course_name VARCHAR (50), 
     course_dept VARCHAR (50),
+    start_date DATE,
+    end_date DATE,
+    course_schedule VARCHAR (50),
+    dept_id INT (5) NOT NULL
 );
 ___________________________________________________________________________
 
