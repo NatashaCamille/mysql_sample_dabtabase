@@ -17,6 +17,12 @@ email VARCHAR(100) NULL,
 phone_number VARCHAR(30) NOT NULL,
 marital_status VARCHAR(15) NULL,
 blood_type VARCHAR(3),
+nationality VARCHAR(25) NOT NULL,
+city VARCHAR(25) NOT NULL,
+home_address VARCHAR(25) NOT NULL,
+NIN VARCHAR(40) NOT NULL, 
+course_id VARCHAR (25) NOT NULL
+);
 ___________________________________________________________________________
 
 INSERT INTO table_name (column1, column2) VALUES (value1, value2);
