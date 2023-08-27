@@ -7,7 +7,9 @@ CREATE TABLE table_name (
     column1 datatype [optional_constraints],
     column2 datatype [optional_constraints],
     optional_table_constraints
-); - CREATE TABLE Student (
+); 
+-- Table 1
+- CREATE TABLE Student (
 registration_number VARCHAR(50)  NOT NULL PRIMARY KEY,
 first_name VARCHAR(50) NOT NULL,
 last_name VARCHAR(50) NOT NULL,
