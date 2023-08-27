@@ -37,6 +37,13 @@ CREATE TABLE Course (
     course_schedule VARCHAR (50),
     dept_id INT (5) NOT NULL
 );
+
+-- Table 3
+
+CREATE TABLE Departments (
+    dept_id INT (5) AUTO_INCREMENT PRIMARY KEY,
+    dept_name VARCHAR (50) NOT NULL,
+);
 ___________________________________________________________________________
 
 INSERT INTO table_name (column1, column2) VALUES (value1, value2);
