@@ -50,13 +50,14 @@ CREATE TABLE Departments (
 -- Table 4
 
 CREATE TABLE Staff (
-    Staff_No VARCHAR(5),
-    first_name VARCHAR(50),
-    last_name VARCHAR(50),
-    DOB VARCHAR(25),
-    gender CHAR(5),
-    salary DECIMAL(7,2),
-    dept_name VARCHAR(50)
+    Staff_No VARCHAR(5) NOT NULL,
+    first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50) NOT NULL,
+    DOB VARCHAR(25) NOT NULL,
+    gender CHAR(5) NOT NULL,
+    address VARCHAR(25) NOT NULL,
+    salary DECIMAL(7,2) NOT NULL,
+    dept_name VARCHAR(50) NOT NULL
 );
 
 -- Table 5
