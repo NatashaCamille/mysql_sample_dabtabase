@@ -43,6 +43,17 @@ CREATE TABLE Course (
 CREATE TABLE Departments (
     dept_id INT (5) AUTO_INCREMENT PRIMARY KEY,
     dept_name VARCHAR (50) NOT NULL,
+    dept_head VARCHAR (50),
+    location CHAR (20)
+);
+
+-- Table 4
+
+CREATE TABLE Staff (
+    Staff_No VARCHAR(5),
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    salary DECIMAL(7,2)
 );
 ___________________________________________________________________________
 
