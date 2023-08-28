@@ -94,18 +94,18 @@ INSERT INTO Student (
     NIN,
     course_id
 ) VALUES (
-    '2023001',
-    'Brandon',
-    'Jones',
-    'Male',
-    '2000-01-15',
-    'brandon@gmail.com',
-    '073256232',
+    '2023002',
+    'Hazel',
+    'Micheals',
+    'Female',
+    '1999-02-17',
+    'hazel@gmail.com',
+    '0735698542',
     'Single',
-    'AB',
+    'A+',
     'Ugandan',
     'Kampala',
-    'Kampala rd',
-    'CM124663465',
+    'Tulsa rd',
+    'CF255565ERP',
     'MsCompSci'
 );
