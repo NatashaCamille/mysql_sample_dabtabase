@@ -67,7 +67,9 @@ CREATE TABLE Exam_results (
     module_code CHAR (50) NOT NULL,
     module CHAR (50) NOT NULL,
     credit_units INT (2) NOT NULL, 
-    
+    instructor VARCHAR (50) NOT NULL,
+    exam_score INT (3) NOT NULL, 
+    registration_number VARCHAR (50) NOT NULL
 );
 ___________________________________________________________________________
 
