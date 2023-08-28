@@ -9,7 +9,7 @@ CREATE TABLE table_name (
     optional_table_constraints
 ); 
 -- Table 1
-- CREATE TABLE Student (
+CREATE TABLE Student (
     registration_number VARCHAR(50)  NOT NULL PRIMARY KEY,
     first_name VARCHAR(50) NOT NULL,
     last_name VARCHAR(50) NOT NULL,
@@ -75,4 +75,7 @@ CREATE TABLE Exam_results (
 ___________________________________________________________________________
 
 INSERT INTO table_name (column1, column2) VALUES (value1, value2);
-- INSERT INTO employees ( )
+
+-- Table 1
+
+INSERT INTO ()
