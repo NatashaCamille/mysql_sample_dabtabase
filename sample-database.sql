@@ -59,7 +59,16 @@ CREATE TABLE Staff (
     dept_name VARCHAR(50)
 );
 
+-- Table 5
 
+CREATE TABLE Exam_results (
+    exam_id INT PRIMARY KEY AUTO_INCREMENT,
+    exam_code VARCHAR (50) NOT NULL, 
+    module_code CHAR (50) NOT NULL,
+    module CHAR (50) NOT NULL,
+    credit_units INT (2) NOT NULL, 
+    
+);
 ___________________________________________________________________________
 
 INSERT INTO table_name (column1, column2) VALUES (value1, value2);
