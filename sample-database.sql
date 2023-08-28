@@ -141,3 +141,35 @@ INSERT INTO Student (
     'CF255565ERP',
     'MsCompSci'
 );
+
+INSERT INTO Student (
+    registration_number,
+    first_name,
+    last_name,
+    gender,
+    DOB,
+    email,
+    phone_number,
+    marital_status,
+    blood_type,
+    nationality,
+    city,
+    home_address,
+    NIN,
+    course_id
+) VALUES (
+    '2023003',
+    'Kyle',
+    'Andrews',
+    'Male',
+    '1991',
+    'kyle@gmail.com',
+    '0787964523',
+    'Married',
+    'A-',
+    'Ugandan',
+    'Kampala',
+    'Yusuf rd',
+    'CM254698KLM',
+    'MIT'
+);
