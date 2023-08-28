@@ -53,8 +53,13 @@ CREATE TABLE Staff (
     Staff_No VARCHAR(5),
     first_name VARCHAR(50),
     last_name VARCHAR(50),
-    salary DECIMAL(7,2)
+    DOB VARCHAR(25),
+    gender CHAR(5),
+    salary DECIMAL(7,2),
+    dept_name VARCHAR(50)
 );
+
+
 ___________________________________________________________________________
 
 INSERT INTO table_name (column1, column2) VALUES (value1, value2);
