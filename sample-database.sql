@@ -192,4 +192,14 @@ INSERT INTO Staff (
     'Lawes St',
     '10000.00',
     'IT'
-);
+),
+(
+    'S002',
+    'John',
+    'White',
+    '1945-10-45',
+    'Male',
+    'Forg St',
+    '30000.00',
+    'IT'
+),
