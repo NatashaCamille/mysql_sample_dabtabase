@@ -162,7 +162,7 @@ INSERT INTO Student (
     'Kyle',
     'Andrews',
     'Male',
-    '1991',
+    '1991-06-20',
     'kyle@gmail.com',
     '0787964523',
     'Married',
@@ -172,4 +172,24 @@ INSERT INTO Student (
     'Yusuf rd',
     'CM254698KLM',
     'MIT'
+);
+
+INSERT INTO Staff (
+    Staff_No,
+    first_name,
+    last_name,
+    DOB,
+    gender,
+    address,
+    salary,
+    dept_name
+) VALUES (
+    'S001',
+    'Denis',
+    'Ssebuggwawo',
+    '1989-05-20',
+    'Male',
+    'Lawes St',
+    '10000.00',
+    'IT'
 );
