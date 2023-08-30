@@ -214,7 +214,7 @@ INSERT INTO Staff (
     'Business'
 ),
 (
-    'S003',
+    'S004',
     'David',
     'Ford',
     '1958-03-24',
@@ -223,4 +223,13 @@ INSERT INTO Staff (
     '18000.00',
     'Business'
 ),
-
+(
+    'S005',
+    'Mary',
+    'Howe',
+    '1970-02-19',
+    'Female',
+    'Lakeview St',
+    '9000.00',
+    'Law'
+);
