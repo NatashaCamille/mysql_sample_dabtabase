@@ -212,4 +212,15 @@ INSERT INTO Staff (
     'Dawson St',
     '12000.00',
     'Business'
-)
+),
+(
+    'S003',
+    'David',
+    'Ford',
+    '1958-03-24',
+    'Male',
+    'Dawson St',
+    '18000.00',
+    'Business'
+),
+
