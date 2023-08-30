@@ -174,6 +174,8 @@ INSERT INTO Student (
     'MIT'
 );
 
+___________________________________________________________________________
+
 INSERT INTO Staff (
     Staff_No,
     first_name,
@@ -233,3 +235,9 @@ INSERT INTO Staff (
     '9000.00',
     'Law'
 );
+
+___________________________________________________________________________
+
+SELECT * Student;
+
+SELECT `Staff_No`,`first_name`,`last_name`,`salary` where salary > 15000;
