@@ -203,3 +203,13 @@ INSERT INTO Staff (
     '30000.00',
     'IT'
 ),
+(
+    'S003',
+    'Ann',
+    'Beech',
+    '1960-11-10',
+    'Female',
+    'Dawson St',
+    '12000.00',
+    'Business'
+)
