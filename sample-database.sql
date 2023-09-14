@@ -238,6 +238,3 @@ INSERT INTO Staff (
 
 ___________________________________________________________________________
 
-SELECT * Student;
-
-SELECT `Staff_No`,`first_name`,`last_name`,`salary` where salary > 15000;
