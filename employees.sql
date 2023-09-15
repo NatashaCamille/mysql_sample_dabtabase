@@ -17,4 +17,8 @@ CREATE TABLE employees (
 -- Fill the table
 
 INSERT INTO employees (employee_id,first_name,last_name,email,phone_number,hire_date,job_id,salary,commission_pct,manager_id,department_id) VALUES  (100,'Estell','Ruiz','ruiz@gmail.com','515.123.4567','17-JUN-2003','AD_PRES',24000.00,0.00,001,90);
-INSERT INTO employees (employee_id,first_name,last_name,email,phone_number,hire_date,job_id,salary,commission_pct,manager_id,department_id) VALUES  (101,'Neena','Kochhar','NKOCHHAR','515.123.4568','21-SEP-2005','AD_VP',17000.00,0.00,100,90);
+INSERT INTO employees (employee_id,first_name,last_name,email,phone_number,hire_date,job_id,salary,commission_pct,manager_id,department_id) VALUES  (101,'Nancy','Drew','nancy@yahoo.com','515.123.4568','21-SEP-2005','AD_VP',17000.00,0.00,1000,90);
+INSERT INTO employees (employee_id,first_name,last_name,email,phone_number,hire_date,job_id,salary,commission_pct,manager_id,department_id) VALUES  
+(102,'Leon','Hernan','LDEHAAN','515.123.4569','13-JAN-2001','AD_VP',17000.00,0.00,1001,90);
+INSERT INTO employees (employee_id,first_name,last_name,email,phone_number,hire_date,job_id,salary,commission_pct,manager_id,department_id) VALUES  (104,'Brad','Steinfeild','bradsten@gmail.com','590.423.4568','21-MAY-2007','IT_PROG',6000.00,0.00,1003,60);
+INSERT INTO employees (employee_id,first_name,last_name,email,phone_number,hire_date,job_id,salary,commission_pct,manager_id,department_id) VALUES  (105,'Daniel','Austin','DAUSTIN','590.423.4569','25-JUN-2005','IT_PROG',4800.00,0.00,1004,60);
