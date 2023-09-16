@@ -33,3 +33,7 @@ INSERT INTO employees (employee_id,first_name,last_name,email,phone_number,hire_
 
 select first_name, last_name, job_id, 12*(salary+nvl(commission_pct,0)) as "Annual Salary" from employees;
 
+----------------------------------------------------------------
+
+drop table employees;
+
