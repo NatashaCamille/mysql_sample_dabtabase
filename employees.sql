@@ -50,3 +50,5 @@ select sum(salary) from employees;
 select max(salary), min(salary) from employees;
 
 ----------------------------------------------------------------
+
+select first_name, last_name, salary from employees order by salary;
