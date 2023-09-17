@@ -37,3 +37,8 @@ select first_name, last_name, job_id, 12*(salary+nvl(commission_pct,0)) as "Annu
 
 drop table employees;
 
+----------------------------------------------------------------
+
+select count(*) from employees;
+
+----------------------------------------------------------------
