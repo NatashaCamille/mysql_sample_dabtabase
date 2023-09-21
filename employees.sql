@@ -60,3 +60,9 @@ select first_name, last_name, salary from employees order by salary desc;
 ---------------------------------------------------------------
 
 select first_name, last_name from employees order by first_name;
+ 
+----------------------------------------------------------------
+
+select employee_id, first_name, department_id, salary from employees order by first_name asc, department_id asc, salary desc;
+
+----------------------------------------------------------------
