@@ -52,3 +52,11 @@ select max(salary), min(salary) from employees;
 ----------------------------------------------------------------
 
 select first_name, last_name, salary from employees order by salary;
+
+----------------------------------------------------------------
+
+select first_name, last_name, salary from employees order by salary desc;
+
+---------------------------------------------------------------
+
+select first_name, last_name from employees order by first_name;
